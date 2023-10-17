@@ -14,6 +14,8 @@
 		39806A232ADD6B86001A287B /* uppgift_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39806A222ADD6B86001A287B /* uppgift_4Tests.swift */; };
 		39806A2D2ADD6B86001A287B /* uppgift_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39806A2C2ADD6B86001A287B /* uppgift_4UITests.swift */; };
 		39806A2F2ADD6B86001A287B /* uppgift_4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39806A2E2ADD6B86001A287B /* uppgift_4UITestsLaunchTests.swift */; };
+		39DF56F82ADD6EAB0035A624 /* MobileNetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DF56F72ADD6EAB0035A624 /* MobileNetModel.swift */; };
+		39EB075B2ADD717F00450134 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 39EB075A2ADD717F00450134 /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		39806A282ADD6B86001A287B /* uppgift-4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uppgift-4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39806A2C2ADD6B86001A287B /* uppgift_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uppgift_4UITests.swift; sourceTree = "<group>"; };
 		39806A2E2ADD6B86001A287B /* uppgift_4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uppgift_4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39DF56F72ADD6EAB0035A624 /* MobileNetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNetModel.swift; sourceTree = "<group>"; };
+		39EB075A2ADD717F00450134 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = "uppgift-4/Models/MobileNet.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		39806A052ADD6B84001A287B = {
 			isa = PBXGroup;
 			children = (
+				39EB075A2ADD717F00450134 /* MobileNet.mlmodel */,
 				39806A102ADD6B85001A287B /* uppgift-4 */,
 				39806A212ADD6B86001A287B /* uppgift-4Tests */,
 				39806A2B2ADD6B86001A287B /* uppgift-4UITests */,
@@ -96,6 +101,7 @@
 			children = (
 				39806A112ADD6B85001A287B /* uppgift_4App.swift */,
 				39806A132ADD6B85001A287B /* ContentView.swift */,
+				39DF56F72ADD6EAB0035A624 /* MobileNetModel.swift */,
 				39806A152ADD6B86001A287B /* Assets.xcassets */,
 				39806A172ADD6B86001A287B /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39EB075B2ADD717F00450134 /* MobileNet.mlmodel in Sources */,
+				39DF56F82ADD6EAB0035A624 /* MobileNetModel.swift in Sources */,
 				39806A142ADD6B85001A287B /* ContentView.swift in Sources */,
 				39806A122ADD6B85001A287B /* uppgift_4App.swift in Sources */,
 			);
