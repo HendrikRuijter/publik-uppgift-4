@@ -46,12 +46,6 @@ struct ContentView: View {
                 .multilineTextAlignment(.center)
         }
         .padding()
-        /** TODO Remove
-        .onAppear() {
-            let mobile_net_model = MobileNetModel()
-            mobile_net_model.predictImage()
-        }
-         */
     }
 }
 
