@@ -11,7 +11,8 @@
  Ta färdig modell för bildigenkänning på https://developer.apple.com/machine-learning/models/
  I projektet lägg in två knappar. Klicka på de olika knappar tar de bilder som du tagit på nätet och använder i modellen. DONE
  Skriv ut resultatet i större text under knapparna. DONE
- Lägg up projektet publikt på github och klista in länk nedan.
+ Lägg up projektet publikt på github och klista in länk nedan. DONE
+ https://github.com/HendrikRuijter/publik-uppgift-4/tree/main
  */
 
 import SwiftUI
