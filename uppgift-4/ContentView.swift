@@ -26,7 +26,7 @@ struct ContentView: View {
             Spacer()
             Button(action: {
                 let mobile_net_model = MobileNetModel()
-                result = mobile_net_model.predictImage(image_name: "dog1")
+                result = mobile_net_model.predictImage(imageset_name: "dog1")
             }) {
                 Text("One dog")
                     .font(.title2)
@@ -34,7 +34,7 @@ struct ContentView: View {
             }
             Button(action: {
                 let mobile_net_model = MobileNetModel()
-                result = mobile_net_model.predictImage( image_name: "dog2")
+                result = mobile_net_model.predictImage( imageset_name: "dog2")
             }) {
                 Text("Another dog")
                     .font(.title2)
